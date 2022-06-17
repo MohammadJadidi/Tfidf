@@ -32,7 +32,7 @@ def scrapAll():
                 'text': article.text,
                 'title': article.title
             })
-        if page == 3:
+        if page == 10:
             break
 
     df = pd.DataFrame(scraptedData)
